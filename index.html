@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbb25d859.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <section id="section1">
+        <div class="rad-50" id="layout-1"></div>
+        <div class="rad-50" id="layout-2"></div>
+        <div class="rad-50" id="layout-3"></div>
+
+        <div class="grid" id="section1-content">
+          <div class="row l-l-gap m-l-gap s-no-gap w-100">
+            <div class="col l-6 m-6 s-12">
+              <div class="align-center">
+                <img
+                  src="./assets/img/logo.png"
+                  alt="Logo shopline"
+                  class="w-50"
+                />
+                <p class="font-l upper white-text mt-25 mb-25">
+                  <strong>hội thảo trực tuyến</strong>
+                </p>
+                <p class="font-l upper text-theme1 mt-25 mb-10">
+                  <strong>5 sai lầm bán hàng trên fackbook </strong>
+                </p>
+                <p class="font-l upper text-theme1 mb-25">
+                  <strong>mùa covid </strong>
+                </p>
+
+                <p class="font-s upper text-theme5 mb-6">
+                  <strong> hội thảo được tổ chức miễn phí </strong>
+                </p>
+                <p class="font-s text-theme5 mb-6">
+                  <strong> Dành cho các Shop trên 5 đơn/ngày </strong>
+                </p>
+                <p class="font-s text-theme5 mb-6">
+                  <strong> Thời gian: 14:00, Thứ Hai, ngày 23/08/2021 </strong>
+                </p>
+
+                <div class="ml-16 mr-16" id="section1-img">
+                  <img
+                    src="./assets/img/photo.png"
+                    alt="photo trang trí"
+                    class="w-100 5block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col l-6 m-6 s-12">
+              <div id="form-container">
+                <form id="form">
+                  <input
+                    class="form-control"
+                    id="form-1"
+                    type="text"
+                    name="name"
+                    required
+                    placeholder="1. Họ tên*"
+                  />
+                  <input
+                    class="form-control"
+                    id="form-2"
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="2. Email*"
+                  />
+                  <input
+                    class="form-control"
+                    id="form-3"
+                    type="text"
+                    name="phone"
+                    required
+                    placeholder="3. Số điện thoại*"
+                  />
+                  <select name="count" id="form-4" class="form-control">
+                    <option
+                      value="4. Lượng đơn trung bình mỗi ngày"
+                      disable
+                      selected
+                      class="hidden"
+                    >
+                      4. Lượng đơn trung bình mỗi ngày
+                    </option>
+                    <option value="Dưới 5 đơn/ngày">Dưới 5 đơn/ngày</option>
+                    <option value="5 - 29 đơn/ngày">5 - 29 đơn/ngày</option>
+                    <option value="30 - 99 đơn/ngày">30 - 99 đơn/ngày</option>
+                    <option value="100 - 199 đơn/ngày">
+                      100 - 199 đơn/ngày
+                    </option>
+                    <option value="Từ 200 đơn/ngày">Từ 200 đơn/ngày</option>
+                  </select>
+                  <textarea
+                    name="channel"
+                    id="form-5"
+                    placeholder="5. Kênh bán hàng* (Ví dụ: FB cá nhân, fanpage, website bán hàng, cửa hàng trên sàn TMĐT, Cửa hàng truyền thống, v.v)"
+                    class="form-control"
+                    rows="4"
+                  ></textarea>
+                  <select name="province" id="form-6" class="form-control">
+                    <option
+                      value="6. Bạn đang ở tỉnh thành nào"
+                      disable
+                      selected
+                      class="hidden"
+                    >
+                      6. Bạn đang ở tỉnh thành nào
+                    </option>
+                    <option value="Tiền Giang">Tiền Giang</option>
+                    <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                    <option value="Hà Nội">Hà Nội</option>
+                    <option value="Đà Nẵng">Đà Nẵng</option>
+                    <option value="Huế">Huế</option>
+                  </select>
+                  <select name="like-service" id="form-7" class="form-control">
+                    <option
+                      value="7. Bạn quan tâm đến dịch vụ nào của SHOPLINE"
+                      disable
+                      selected
+                      class="hidden"
+                    >
+                      7. Bạn quan tâm đến dịch vụ nào của SHOPLINE
+                    </option>
+                    <option value="Dịch vụ 1">Dịch vụ 1</option>
+                    <option value="Dịch vụ 2">Dịch vụ 2</option>
+                    <option value="Dịch vụ 3">Dịch vụ 3</option>
+                    <option value="Dịch vụ 4">Dịch vụ 4</option>
+                    <option value="Dịch vụ 5">Dịch vụ 5</option>
+                    <option value="Dịch vụ 6">Dịch vụ 6</option>
+                    <option value="Dịch vụ 7">Dịch vụ 7</option>
+                  </select>
+
+                  <p class="font-xs text-theme6 mt-16 mb-6">
+                    Chúng tôi sẽ liên hệ với bạn sớm!
+                  </p>
+                  <input type="checkbox" id="form-8" />
+                  <label for="form-8" class="text-theme6 font-xs"
+                    >Tôi xác nhận thông tin trên là chính xác.</label
+                  >
+                  <button
+                    class="upper white-text font-l w-100 mt-16"
+                    id="form-9"
+                  >
+                    <strong>đăng kí ngay</strong>
+                  </button>
+
+                  <p class="font-xs white-text mt-16">
+                    <i>(Chính sách quyển riêng tư)</i>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section2">
+        <div class="grid">
+          <div class="row l-xl-gap m-xl-gap s-no-gap mb-25">
+            <div class="col l-6 m-6 s-12">
+              <div>
+                <p class="font-m white-text pane w-100">
+                  <strong>Nội dung chương trình</strong>
+                </p>
+                <ul class="font-s text-theme3">
+                  <li>Những sai lầm khi kinh doanh online trên FB.</li>
+                  <li>Công thức tạo doanh thu đột phá.</li>
+                  <li>Tuyệt chiêu bán hàng thành công trên FB.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-6 m-6 s-12">
+              <p class="font-m white-text pane w-100">
+                <strong>Diễn giả</strong>
+              </p>
+              <div class="grid">
+                <div class="row l-m-gap m-m-gap s-no-gap">
+                  <div class="col l-6 m-6 s-12">
+                    <div style="position: relative">
+                      <div
+                        class="w-100 rad-50 diengia-img align-center"
+                        id="speaker1"
+                      >
+                        <img
+                          src="./assets/img/dien-gia1.jpg"
+                          alt="Hinh anh dien gia"
+                          class="w-100"
+                        />
+                      </div>
+                      <div id="speaker1-desc">
+                        <p class="font-m text-theme1 mt-16 mb-6 align-center">
+                          <strong>Ms. Phương Nguyễn</strong>
+                        </p>
+                        <p class="font-xxs text-theme1 align-center">
+                          CEO Công Ty UP ACADEMY
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col l-6 m-6 s-12">
+                    <div style="position: relative; min-height: 160px">
+                      <div
+                        class="w-100 rad-50 diengia-img align-center"
+                        id="speaker2"
+                      >
+                        <img
+                          src="./assets/img/dien-gia2.jpg"
+                          alt="Hinh anh dien gia"
+                          class="w-100"
+                        />
+                      </div>
+                      <div id="speaker2-desc">
+                        <p class="font-m text-theme1 mt-16 mb-6 align-center">
+                          <strong>Ms. Phương Lương</strong>
+                        </p>
+                        <p class="font-xxs text-theme1 align-center">
+                          Quản Lý Phát Triển Thị Trường SHOPLINE Việt nam
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row l-xl-gap m-xl-gap s-no-gap w-100">
+            <div class="col l-6 m-6 s-12" style="position: relative">
+              <p class="font-m white-text pane w-100 mb-25">
+                <strong> Thông Tin Ban Tổ Chức</strong>
+              </p>
+              <p
+                class="font-l text-theme3 w-100 mb-25"
+                style="line-height: 1.6"
+              >
+                <strong>
+                  SHOPLINE cung cấp giải pháp nền tảng hỗ trợ người bán hàng
+                  tăng trưởng kinh doanh Online</strong
+                >
+              </p>
+              <div id="diagram">
+                <div id="diagram-center" class="rad-50 white-text">
+                  <br />
+                  <br />
+                  <br />
+                  <p class="upper align-center" style="line-height: 1.6">
+                    <strong>Kinh doanh</strong>
+                  </p>
+                  <p class="upper align-center" style="line-height: 1.6">
+                    <strong>online</strong>
+                  </p>
+                  <p class="align-center">cùng</p>
+                  <div class="align-center mt-16">
+                    <img
+                      src="./assets/img/logo.png"
+                      alt="logo shopline"
+                      class="w-50"
+                    />
+                  </div>
+                </div>
+                <div
+                  id="dia1"
+                  class="align-center text-theme3 font-m"
+                  style="line-height: 1.6"
+                >
+                  <strong
+                    >Chốt đơn <br /><span style="color: #fabf17" class="upper"
+                      >livestream</span
+                    ><br />tự động</strong
+                  >
+                </div>
+                <div
+                  id="dia2"
+                  class="align-center text-theme3 font-m"
+                  style="line-height: 1.6"
+                >
+                  <strong
+                    >Tạo<br /><span style="color: #fabf17" class="upper"
+                      >chatbot</span
+                    ><br />CSKH 24/7</strong
+                  >
+                </div>
+                <div
+                  id="dia3"
+                  class="align-center text-theme3 font-m"
+                  style="line-height: 1.6"
+                >
+                  <strong
+                    >Quản lý<br />bán hàng <br /><span
+                      style="color: #fabf17"
+                      class="upper"
+                      >đa kênh</span
+                    ></strong
+                  >
+                </div>
+                <div
+                  id="dia4"
+                  class="align-center text-theme3 font-m"
+                  style="line-height: 1.6"
+                >
+                  <strong
+                    >Tạo<br /><span style="color: #fabf17" class="upper"
+                      >website</span
+                    ><br />bán hàng</strong
+                  >
+                </div>
+              </div>
+              <p class="font-s text-theme3 mb-25 align-justify">
+                Cung cấp đầy đủ các dịch vụ hỗ trợ nhà bán hàng thành công trong
+                việc kinh doanh từ Offline sang Online (từ truyền thống đến kỹ
+                thuật số) và bán hàng xuyên biên giới, bao gồm việc thiết lập
+                cửa hàng trực tuyến, tích hợp thanh toán và dịch vụ hậu cần,
+                tiếp thị quảng cáo sản phẩm dịch vụ,...
+              </p>
+              <p class="font-s text-theme3 mb-25 align-justify">
+                <strong>Hơn 250.000 thương hiệu ở châu Á đang sử dụng, </strong
+                >dù khách hàng là cá nhân hay các thương hiệu quốc tế, SHOPLINE
+                đều cung cấp giải pháp toàn diện với công nghệ tiên tiến và kiến
+                thức chuyên môn để hỗ trợ nhà bán hàng có mọi thứ cần thiết cho
+                việc kinh doanh hiệu quả.
+              </p>
+
+              <button id="btn123"><strong>Tìm hiểu ngay</strong></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div id="footer-container">
+          <div class="footer-item">
+            <img
+              src="./assets/img/logo.png"
+              alt="Logo shopline"
+              class="mb-16"
+              style="width: 260px; display: block"
+            />
+            <p class="white-text font-xs">
+              Copyright © 2020. All rights reserved.
+            </p>
+          </div>
+          <div class="footer-item">
+            <p class="upper white-text font-m mb-16">
+              <strong>liên kết</strong>
+            </p>
+            <ul class="white-text font-s" id="footer-anchor">
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Dịch vụ</a></li>
+              <li><a href="#">Học viện</a></li>
+            </ul>
+          </div>
+          <div class="footer-item" id="footer-social">
+            <p class="upper white-text font-m mb-16">
+              <strong>Kết nối với chúng tôi</strong>
+            </p>
+            <a href="#" class="social font-m text-theme3 rad-50"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social font-m text-theme3 rad-50"
+              ><i class="fas fa-globe"></i
+            ></a>
+            <a href="#" class="social font-m text-theme3 rad-50"
+              ><i class="fab fa-youtube-square"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
